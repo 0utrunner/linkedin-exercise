@@ -1,1 +1,100 @@
-/* write styles here */
+body{
+    background-color: rgb(212, 212, 212);
+}
+
+#page-layout{
+    position: relative;
+    background-color: white;
+    width: 1300px;
+    box-shadow: 0 0 0 2pt rgb(165, 165, 165);
+    height: 1550px;
+}
+
+#wallpaper-img{
+    position:relative;
+    z-index: 5;
+}
+
+#profile-pic{
+    border-radius:100%;
+    border: 4px solid white;
+    box-shadow: 0 0 0 0.8pt rgb(210, 210, 210);
+    bottom: 180px;
+    left: 40px;
+    position:relative;
+    z-index: 10;
+  }
+
+.about-me{
+    position: relative;
+    left: 80px;
+    bottom: 180px;
+}
+
+.location{
+    color: gray;
+    position: relative;
+    left: 80px;
+    bottom: 180px;
+}
+
+#credentials{
+    color: rgb(0, 88, 145);
+    position: absolute;
+    left: 900px;
+    bottom: 845px;
+}
+
+.picture{
+    position: absolute;
+    right: 200px;
+    bottom: 66px;
+    z-index: 10;
+}
+
+.picture2{
+    position: absolute;
+    right: 200px;
+    top: 114px;
+    z-index: 10;
+}
+
+.picture3{
+    position: absolute;
+    right: 200px;
+    bottom: 115px;
+    z-index: 10;
+}
+
+#message-block{
+    background-color: rgb(0, 130, 200);
+    display: inline-block;
+    position: relative;
+    left: 80px;
+    bottom: 180px;
+}
+
+#more-block{
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    bottom: 178px;
+}
+
+.message{
+    color: white;
+    display: inline-block;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.more{
+    border: 2px solid rgb(200, 200, 200);
+    color: rgb(120, 120, 120);
+    padding: 19px;
+    width: 80px;
+    height: 19px;
+    display: flex;
+    justify-content: center;
+}
